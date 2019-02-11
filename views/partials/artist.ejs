@@ -1,0 +1,7 @@
+<div class="partial">
+  <img src="<%=artist.images[0]%>" alt="Imagen del artista <%=artist.name%>" />
+  <h2><%=artist.name%></h2>
+  <form action="/albums/<%-artist.id%>">
+    <button type="submit">Albums</button>
+  </form>
+</div>
